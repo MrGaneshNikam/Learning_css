@@ -1,0 +1,40 @@
+/* solid,dashed,dotted,double,inset,outset */
+    .b_prop{
+        border: 12px solid red;
+    }
+
+    .b_prop2{
+        border: 15px dashed rgb(38, 0, 255);
+    }
+
+    .b_prop3{
+        border: 12px inset rgb(183, 255, 0);
+    }
+
+    .b_prop4{
+        border: 12px dotted rgb(0, 183, 255);
+    }
+
+    .b_prop{
+        border: 13px double red;
+    }
+    .b_radius{
+        border-radius: 50px 30px 50px 30px;
+    }
+    /* border-top-left-radius: 80px;
+    border-top-right-radius : 30px
+    border-bottom-right-radius: 80px;
+    border-bottom-left-radius : 30px; */
+
+    .b_color{
+        border: 8px double red;
+        border-top-color: blue;
+        border-right-color: green;
+        border-bottom-color: yellow;
+        border-left-color: brown;
+    }
+
+.b_color{
+    border: 8px double red;
+    border-color: blue green yellow brown;
+}
