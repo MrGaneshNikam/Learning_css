@@ -20,3 +20,98 @@ h3{
     .b_prop4{
         border: 12px dotted rgb(0, 183, 255);
     }
+
+    .para1{
+        border: 3px solid red;
+    }
+
+    .para2{
+        border: 3px solid red;
+        padding: 40px;
+        margin: 60px;
+    }
+
+    .para3{
+        border:3px solid red;
+        /* padding-left: 50px;
+        padding-right: 180px;
+        padding-top: 60px;
+        padding-bottom: 100px; */
+        padding: 50px 80px 50px 80px;
+        margin: 50px 80px 50px 80px;
+
+    }
+    .img1{
+          border: 3px solid red;
+        padding: 40px;
+        margin: 60px;
+    }
+
+    .box{
+        width: 150px;
+        height: 150px;
+        background-color: gray;
+        border: 2px solid red;
+        margin-bottom: 20px;
+    }
+    
+    .box1{
+        position: static;
+       /* not move static it is fixed right: 10px;
+  */
+    }
+
+  .box2{
+    position: relative;
+    left: 300px;
+    top: 40px;
+  }
+
+  .box3{
+    position: absolute;
+    left: 300px;
+    top: 40px;
+  }
+
+  .box4{
+    position: sticky;
+    top: 0;
+  }
+
+  .box5{
+    position: fixed;
+    bottom: 0px;
+    right: 10px;
+  }
+
+  .hall{
+    position: relative;
+    height: 500px;
+    width: 500px;
+    top: 30px;
+    left: 150px;
+    background-color: black;
+  }
+  
+  #tv{
+    position: absolute;
+    height: 80px;
+    width: 200px;
+    left: 150px;
+    background-color: yellow;
+  }
+
+  #sofa{
+    position: absolute;
+    height: 50px;
+   width: 350px;
+    background-color: red;
+  }
+
+   #fridge{
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    left: 120px;
+    background-color:green;
+   }
