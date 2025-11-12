@@ -11,3 +11,75 @@
     font-size: 150px;
 }
 
+/* descendant selector ---> use for selects all paragraphs inside divs */
+p {
+    color: purple;
+    background-color: yellow;
+}
+
+
+
+ /* body{
+    background-color: black;
+    background-image:url(/images/construction\ 2.jpeg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+}  */
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+
+.linear{
+    height: 300px;
+    background: linear-gradient(to right,red,green,blue,yellow,black,purple);
+     /* background: linear-gradient( right,orange,white green); */
+} 
+
+.radial{
+    height: 300px;
+    background: radial-gradient(circle,black,red,white,blue);
+}
+
+.conic{
+    height: 300px;
+    background: conic-gradient(from 90deg,black,red,white,blue);
+}
+
+
+
+.flex-item{
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    color: white;
+    font-size: 50px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}
+
+.container{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    color: white;
+    font-size: 50px;
+}
