@@ -16,9 +16,9 @@ p { color: brown;
         span { text-decoration: underline;
          }
 
-        /* index(6).htmlfile check and run for abc.css folder */
+        /* index(6).htmlfile check and run for abc.css folder */ */
 
-         button:hover{
+          button:hover{
             background-color: black;
             color: red;
          }
@@ -71,4 +71,6 @@ p { color: brown;
          div:hover{
             background-color: black;
             border-radius: 50%;
-         }
+         } 
+
+         

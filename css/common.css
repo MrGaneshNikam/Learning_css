@@ -19,13 +19,16 @@ p {
 
 
 
- /* body{
+ body{
+     /* width: 200px;
+    height: 200px; */
     background-color: black;
     background-image:url(/images/construction\ 2.jpeg);
     background-repeat:no-repeat;
-    background-size: cover;
+    background-size: cover; 
+    /* background-size: contain; */
     
-}  */
+}  
 
 div{
     display: flex;
@@ -33,7 +36,8 @@ div{
     align-items: center;
     font-size: 30px;
     color: white;
-    margin-bottom: 40px;
+    margin-bottom: 40px; 
+  
 }
 
 
