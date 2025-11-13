@@ -15,3 +15,22 @@ p { color: brown;
         textarea { color: black; } 
         span { text-decoration: underline;
          }
+
+        /* index(6).htmlfile check and run for abc.css folder */
+
+         button:hover{
+            background-color: black;
+            color: red;
+         }
+
+
+         h1::first-letter {
+            color:black;
+         }
+
+         p::first-line {
+            color:orchid
+         }
+         p::selection{
+            background-color: rgb(151, 151, 68);
+         }

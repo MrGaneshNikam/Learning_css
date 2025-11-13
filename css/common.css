@@ -38,9 +38,11 @@ div{
 
 
 .linear{
+    color: black;
     height: 300px;
-    background: linear-gradient(to right,red,green,blue,yellow,black,purple);
+    /* background: linear-gradient(to right,red,green,blue,yellow,black,purple); */
      /* background: linear-gradient( right,orange,white green); */
+     background: linear-gradient(to right,#e98000,white,rgb(16, 152, 43));
 } 
 
 .radial{
