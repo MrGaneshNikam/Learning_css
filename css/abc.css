@@ -34,3 +34,41 @@ p { color: brown;
          p::selection{
             background-color: rgb(151, 151, 68);
          }
+
+
+         #outer {
+            height: 200px;
+            width: 70px; 
+            border: solid black;
+         }
+
+
+         .inner{
+            height: 50px;
+            width: 50px;
+            border: 2px solid black;
+            margin: 10px;
+            border-radius: 50px;
+         }
+         #red{
+            background-color: red;
+         }
+         #yellow{
+            background-color: yellow;
+         }
+         #green{
+            background-color: green;
+         }
+
+         div{
+            background-color: green;
+             height: 200px;
+            width: 200px; 
+            border: solid black;
+            transition: 2s;
+         }
+
+         div:hover{
+            background-color: black;
+            border-radius: 50%;
+         }
